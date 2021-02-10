@@ -1,0 +1,20 @@
+
+
+// Si on creer un depot serveur en local
+git init
+git add .
+git commit -m ’initial commit’
+git remote add origin git@gitserver:/XX/XX/project.git
+git push origin master
+
+
+
+// Si on veut utiliser un depot serveur en ligne (sur github dans notre cas), 
+// il suffit de cloner le depot existant créer par un tiers  
+git clone
+
+git add 
+
+git commit -m
+
+git push --set-upstream origin master // L'upstream (ou branche en amont) est la branche principale que les autres branches vont suivre. S'il n'existe pas d'upstream, la commande push permet de la creer avec l'option --set-upstream. Sans cela le push ne peut fonctionner.
