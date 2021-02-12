@@ -1,0 +1,3 @@
+On crée un fichier .gitignore, et on décrit avec des expressions
+régulières ce que l'on veut ignorer dans le dossier courant et les dossiers plus bas.
+Dans notre exemple on ajoute *.pdf et tmp/
