@@ -1,0 +1,7 @@
+Les commandes utilisées :
+
+-git stash
+-git rebase feature2
+-git fast-forward
+
+Le rebase permet, si il n'y a pas de dépendance sur feature2 dans notre cas, de generer un historique lineaire entre la branche rebase et la destination (master dans notre cas). Fast forward permet que si, par exemple dans notre cas les changements de feature2 se font apres ceux de master, remettre le curseur de master a jour des dernieres modifications.

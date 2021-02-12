@@ -1,0 +1,18 @@
+Pour creer un fichier dans la catégorie "changes to be commited" :
+
+- touch fileToBeCommited
+- git add fileToBeCommited
+
+Pour creer un fichier dans la catégorie "changes not staged for commit" :
+
+- touch fileNotStaged
+- git add fileNotStaged
+- echo "blabla" > fileNotStaged
+
+Pour creer un fichier dans la catégorie "Untracked files" :
+
+- touch fileUntracked
+
+Est ce qu’un fichier peut apparaˆıtre dans au moins 2 categories à la fois ? Expliquez.
+
+Oui et non : on peut avoir en même temps un fichier dans la catégorie  "changes to be commited" et sa version plus récente dans la catégorie "Untracked files", ce sera le même nom de fichier mais ce ne sera pas vraiment le même.
