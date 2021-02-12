@@ -1,0 +1,9 @@
+1/ git branch <nom>
+
+2/ git branch -a
+
+3/ git branch -a (la branche courante est identifée avec une *)
+
+4/ checkout <nomBranche>
+
+5/ En changeant de branches, le repertoire ajoute ou enleve le dossier branchtest

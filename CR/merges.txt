@@ -1,0 +1,7 @@
+Pour merge :
+
+Se placer dans la branche principale (master)
+
+Executer la commande git merge feature1
+
+Resoudre les conflits eventuels (ici il n'y en avait pas, il n'y avait pas d'acces conflictuels a des fichiers partagés, uniquement des ajouts)
