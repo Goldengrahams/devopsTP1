@@ -1,0 +1,5 @@
+1. On ne peux pas changer de branche, des modifications non commitées nous en empeche.
+2. On stash (remise) nos modifications nos commitées (-git stash)
+3. Le fichier est vide
+4. Pour voir la liste des stash : -git stash list
+5. Pour restorer nos modifications, dans notre cas il suffit de faire -git stash pop
