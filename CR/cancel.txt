@@ -1,0 +1,6 @@
+Pour annuler les derniers changements, puisqu'ils ont été rendu public (par un push),
+on preferera faire un revert qu'un reset. (la commande "amend" ne nous sera pas utile
+ici).
+
+La commande a executer est :
+-git revert HEAD^
