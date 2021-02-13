@@ -4,3 +4,7 @@ ici).
 
 La commande a executer est :
 -git revert HEAD^
+
+
+Pour l'étape 16, on peut restaurer l'etat avec la commande "-git checkout conflit.txt"
+(puisque les modifications sont locales)
