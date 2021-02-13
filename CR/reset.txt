@@ -1,0 +1,51 @@
+-git reset monfichier :
+
+desindexe un fichier (par exemple si on add un fichier par erreur).
+scenario :
+-git add fichier1
+-git status
+-git reset fichier1
+-git status
+
+On constate que le fichier passe d'indexé a désindexé
+
+
+
+
+git reset commitID :
+
+Equivalent de -git reset --mixed HEAD
+Permet de revenir au commit où il y a le head avec l'index du commit correspondant au head.
+Cela permet de desindexer tout les fichier indexés depuis le dernier commit.
+
+Scénario :
+
+identique a celui de -git reset monfichier, sauf que l'on add plusieurs fichiers.
+
+
+
+
+git reset --soft commitID :
+
+Head va pointer vers commitID
+Peut par exemple permettre de creer un branche a partir d'un ancien commit
+
+Scenario :
+commit 1
+commit 2 (ajout d'une fonctionnalité)
+//On voulait ajouter une autre fonctionnalité, mais sur un code ne contenant pas de fonctionnalité.
+git reset idCommit1 --soft
+git branch feature1
+
+git reset --hard commitID :
+
+Retourne au commit d'id "commitID" en oubliant tout ce qui c'est passé apres.
+Peut permettre d'annuler des changements locaux (qui n'ont pas encore été push)
+
+Scénario :
+on commit (commit 1)
+on fait une modification quelqconque
+on commit (commit 2)
+- git reset idCommit1 --hard
+on constate que ce qu'on a fait apres le commit 1 a disparu
+

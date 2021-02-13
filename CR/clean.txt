@@ -1,0 +1,6 @@
+On fait les commits successifs, on lance ensuite la commande -git rebase -i,
+un fichier s'ouvre avec l'historique des commits, on supprime le commit du fichier 2 en supprimant la ligne de code correspondant, puis on remplace pick par squash pour le commit du fichier 3, ce qui le fera fusionner avec le commit précédent, le commit du fichier 1.
+
+Un cas d'utilisation du rebase interactif : vous avez commit plusieurs fois plein de petites choses, vous auriez pu faire tout cela en un gros commit, le rebase interactif permet de fusionner tout ces petits commit.
+
+Modifier rapidement les messages de plusieurs commit en meme temps aussi

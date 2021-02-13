@@ -1,0 +1,13 @@
+Point positif :
+
+On a fait et on utilise Git dans notre cursus pendant les projets, cependant pour la plupart ca reste assez approximatif.
+Avoir un TD dédié a ca est vraiment une bonne idée.
+Personnellement j'en ai fait beaucoup, pour divers projets, mais c'est que maintenant que ca ne me fait plus peur. Donc vraiment a maintenir pour les étudiants suivants.
+
+
+Note :
+
+J'espere que vous ne prendrez pas ou peu en compte la redondance des commits et push (dues a des oublis d'add notamment)
+
+
+Pas de point négatifs, on est un peu laissé a nous meme puisque le TP est long, mais pour GIT c'est une bonne chose, ca nous oblige a le comprendre une fois pour toute.
