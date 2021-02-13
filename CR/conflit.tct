@@ -1,0 +1,18 @@
+Dans feature1 :
+J'ai crée un fichier conflit.txt qui contenait "mot1"
+J'ai commit
+
+
+Dans master :
+J'ai crée un fichier conflit.txt qui contenait "mot2"
+J'ai commit puis merge feature1 (ca fonctionnerai aussi avec des push/pull)
+
+Des conflits sont apparus, ils ont du etre traité avant de pouvoir merge, avec les séparateurs qui apparaissent dans le fichier en conflit aux endroits spécifiques
+
+<<<<<<< HEAD
+premier mot en conflit
+=======
+second mot en conflit
+>>>>>>> feature1
+
+”Je ne sais pas comment r ́esoudre les conflits”
